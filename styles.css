@@ -1,0 +1,36 @@
+/*styles.css */
+
+body{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 22px;
+    background-color: rgba(135, 207, 235, 0.445);
+}
+
+.main-menu,
+.main-content,
+.main-title{
+    text-align:center;
+}
+.main-title {
+    font-size: 48px;
+    color:blue;
+    font-weight: 700;
+}
+
+.main-menu{
+    list-style-type: none;
+}
+
+.source {
+    font-size:12px;
+    font-style:italic;
+}
+
+.content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.recipe {
+    font-weight:600;
+    font-size:36px;
+}
