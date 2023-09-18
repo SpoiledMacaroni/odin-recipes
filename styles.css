@@ -1,36 +1,58 @@
 /*styles.css */
 
 body{
-    font-family: "Times New Roman", sans-serif;
-    font-size: 22px;
-    background-color: rgba(135, 207, 235, 0.445);
+    font-family: "Andale Mono", monospace;
+    background-color: #eae7dc;
 }
 
-.main-menu,
-.main-content,
-.main-title{
-    text-align:center;
-}
-.main-title {
-    font-size: 48px;
-    color:blue;
-    font-weight: 700;
+.card{
+    width: 400px;
+    margin: 16px auto;
+    padding: 8px;
+    border: 2px solid #D8C3A5;
 }
 
-.main-menu{
+.center{
+    text-align: center;
+}
+
+.title{
+    font-size: 32px;
+    padding: 8px;
+    margin: 8px auto;
+    letter-spacing: 2px;
+    color: #E98074;
+    text-align: center;
+}
+
+.content{
+    margin-bottom: 8px;
+    padding: 16px 8px;
+}
+
+.menu{
+    padding: 8px;
     list-style-type: none;
 }
 
-.source {
-    font-size:12px;
-    font-style:italic;
+.source{
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
 }
 
-.content {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+.li {
+    font-size: 16px;
+}
+
+.picture {
+    width: 300px;
+    border: 2px solid #D8C3A5;
+    margin: 16px auto;
+    display: block;
 }
 
 .recipe {
-    font-weight:600;
-    font-size:36px;
+    width: 1000px;
+    margin: 32px auto;
 }
